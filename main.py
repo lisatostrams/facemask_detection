@@ -153,7 +153,7 @@ model.compile(optimizer='adam',
 
 
 #%%
-
+print('callbacks')
 checkpoint_path = "checkpoints/cp.ckpt"
 checkpoint_dir = os.path.dirname(checkpoint_path)
 
