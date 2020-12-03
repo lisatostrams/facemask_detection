@@ -168,7 +168,7 @@ csv_logger = tf.keras.callbacks.CSVLogger('output/training.log')
 history=model.fit(train_dataset,
           epochs=init_epochs,
           validation_data=validation_dataset,
-          callback = [cp_callback,csv_logger]
+          callbacks = [cp_callback,csv_logger]
          )
 
 #%%
