@@ -162,6 +162,14 @@ history=model.fit(train_dataset,
 #%%
 
 
+checkpoint_path = "checkpoints/cp.ckpt"
+checkpoint_dir = os.path.dirname(checkpoint_path)
+
+# Create a callback that saves the model's weights
+cp_callback = tf.keras.callbacks.ModelCheckpoint(filepath=checkpoint_path,
+                                                 save_weights_only=True,
+                                                 verbose=1)
+
 acc = history.history['accuracy']
 val_acc = history.history['val_accuracy']
 
@@ -185,6 +193,6 @@ plt.ylabel('Cross Entropy')
 plt.ylim([0,0.2])
 plt.title('Training and Validation Loss')
 plt.xlabel('epoch')
-plt.save_fig('results.png',dpi=300)
+plt.save_fig('output/results.png',dpi=300)
 
 
