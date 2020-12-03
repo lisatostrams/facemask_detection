@@ -17,13 +17,13 @@ from tensorflow.keras.preprocessing import image_dataset_from_directory
 
 
 #%%
-path = '/data'
+path = 'data'
 BATCH_SIZE = 16
 init_epochs=4
 fine_tuning_epochs=8
 IMG_SIZE = (224, 224)
 base_learning_rate=0.0001
-output_path='/output'
+output_path='output'
 
 
 
