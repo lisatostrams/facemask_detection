@@ -17,13 +17,13 @@ from tensorflow.keras.preprocessing import image_dataset_from_directory
 
 
 #%%
-path = '/Users/lisatostrams/Documents/facemask_detection/data'
+path = '/data'
 BATCH_SIZE = 16
 init_epochs=4
 fine_tuning_epochs=8
 IMG_SIZE = (224, 224)
 base_learning_rate=0.0001
-output_path='/Users/lisatostrams/Documents/facemask_detection/output'
+output_path='/output'
 
 
 
@@ -185,6 +185,6 @@ plt.ylabel('Cross Entropy')
 plt.ylim([0,0.2])
 plt.title('Training and Validation Loss')
 plt.xlabel('epoch')
-plt.show()
+plt.save_fig('results.png',dpi=300)
 
 
