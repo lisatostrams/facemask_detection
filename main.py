@@ -154,14 +154,6 @@ model.compile(optimizer='adam',
 
 #%%
 
-history=model.fit(train_dataset,
-          epochs=init_epochs,
-          validation_data=validation_dataset
-         )
-
-#%%
-
-
 checkpoint_path = "checkpoints/cp.ckpt"
 checkpoint_dir = os.path.dirname(checkpoint_path)
 
@@ -169,6 +161,19 @@ checkpoint_dir = os.path.dirname(checkpoint_path)
 cp_callback = tf.keras.callbacks.ModelCheckpoint(filepath=checkpoint_path,
                                                  save_weights_only=True,
                                                  verbose=1)
+
+csv_logger = tf.keras.callbacks.CSVLogger('output/training.log')
+
+
+history=model.fit(train_dataset,
+          epochs=init_epochs,
+          validation_data=validation_dataset,
+          callback = [cp_callback,csv_logger]
+         )
+
+#%%
+
+
 
 acc = history.history['accuracy']
 val_acc = history.history['val_accuracy']

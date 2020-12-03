@@ -1,0 +1,242 @@
+url,username,password,extra,name,grouping,fav
+https://www.netflix.com/login,netflix_user1@email.com,mypassword1234!,,Netflix,Entertainment,1
+http://sn,,,,Gym Membership,,0
+http://sn,,,"NoteType:Address
+Language:en-US
+Title:
+First Name:Charlie
+Middle Name:
+Last Name:Frost
+Username:
+Gender:
+Birthday:April,26,1985
+Company:
+Address 1:123 Elm St
+Address 2:
+Address 3:
+City / Town:Somewhere
+County:
+State:WA
+Zip / Postal Code:55555
+Country:
+Timezone:
+Email Address:charlie.frost@email.com
+Phone:{""num"":""15558675309"",""ext"":"""",""cc3l"":""USA""}
+Evening Phone:
+Mobile Phone:
+Fax:
+Notes:",Profile,,0
+http://sn,,,"NoteType:Wi-Fi Password
+Language:en-US
+SSID:
+Password:
+Connection Type:ESS
+Connection Mode:auto
+Authentication:WPA2
+Encryption:AES
+Use 802.1X:true
+FIPS Mode:
+Key Type:
+Protected:
+Key Index:
+Notes:<?xml version=""1.0""?>
+<WLANProfile xmlns=""http://www.microsoft.com/networking/WLAN/profile/v1"">
+	<name>access3</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>61636365737333</hex>
+			<name>access3</name>
+		</SSID>
+		<nonBroadcast>true</nonBroadcast>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>auto</connectionMode>
+	<autoSwitch>true</autoSwitch>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2</authentication>
+				<encryption>AES</encryption>
+				<useOneX>true</useOneX>
+			</authEncryption>
+			<PMKCacheMode>enabled</PMKCacheMode>
+			<PMKCacheTTL>720</PMKCacheTTL>
+			<PMKCacheSize>128</PMKCacheSize>
+			<preAuthThrottle>3</preAuthThrottle>
+			<OneX xmlns=""http://www.microsoft.com/networking/OneX/v1"">
+				<cacheUserData>false</cacheUserData>
+				<maxAuthFailures>1</maxAuthFailures>
+				<authMode>user</authMode>
+				<singleSignOn>
+					<type>preLogon</type>
+					<maxDelay>10</maxDelay>
+					<allowAdditionalDialogs>true</allowAdditionalDialogs>
+					<userBasedVirtualLan>false</userBasedVirtualLan>
+				</singleSignOn>
+				<EAPConfig><EapHostConfig xmlns=""http://www.microsoft.com/provisioning/EapHostConfig""><EapMethod><Type xmlns=""http://www.microsoft.com/provisioning/EapCommon"">25</Type><VendorId xmlns=""http://www.microsoft.com/provisioning/EapCommon"">0</VendorId><VendorType xmlns=""http://www.microsoft.com/provisioning/EapCommon"">0</VendorType><AuthorId xmlns=""http://www.microsoft.com/provisioning/EapCommon"">0</AuthorId></EapMethod><Config xmlns=""http://www.microsoft.com/provisioning/EapHostConfig""><Eap xmlns=""http://www.microsoft.com/provisioning/BaseEapConnectionPropertiesV1""><Type>25</Type><EapType xmlns=""http://www.microsoft.com/provisioning/MsPeapConnectionPropertiesV1""><ServerValidation><DisableUserPromptForServerValidation>false</DisableUserPromptForServerValidation><ServerNames></ServerNames></ServerValidation><FastReconnect>true</FastReconnect><InnerEapOptional>false</InnerEapOptional><Eap xmlns=""http://www.microsoft.com/provisioning/BaseEapConnectionPropertiesV1""><Type>26</Type><EapType xmlns=""http://www.microsoft.com/provisioning/MsChapV2ConnectionPropertiesV1""><UseWinLogonCredentials>true</UseWinLogonCredentials></EapType></Eap><EnableQuarantineChecks>false</EnableQuarantineChecks><RequireCryptoBinding>false</RequireCryptoBinding><PeapExtensions><PerformServerValidation xmlns=""http://www.microsoft.com/provisioning/MsPeapConnectionPropertiesV2"">false</PerformServerValidation><AcceptServerName xmlns=""http://www.microsoft.com/provisioning/MsPeapConnectionPropertiesV2"">false</AcceptServerName></PeapExtensions></EapType></Eap></Config></EapHostConfig></EAPConfig>
+			</OneX>
+		</security>
+	</MSM>
+</WLANProfile>",WiFi,,0
+http://sn,,,"NoteType:Credit Card
+Language:en-US
+Name on Card:
+Type:
+Number:
+Security Code:
+Start Date:,
+Expiration Date:,
+Notes:",Debit Card,Banking,0
+http://sn,,,"NoteType:Bank Account
+Language:en-US
+Bank Name:
+Account Type:
+Routing Number:
+Account Number:
+SWIFT Code:
+IBAN Number:
+Pin:
+Branch Address:
+Branch Phone:
+Notes:",BECU,Banking,0
+http://sn,,,"NoteType:Driver's License
+Language:en-US
+Number:
+Expiration Date:,,
+License Class:
+Name:
+Address:
+City / Town:
+State:
+ZIP / Postal Code:
+Country:
+Date of Birth:,,
+Sex:
+Height:
+Notes:",Driver's  License,,0
+http://sn,,,"NoteType:Passport
+Language:en-US
+Type:
+Name:
+Country:
+Number:
+Sex:
+Nationality:
+Issuing Authority:
+Date of Birth:,,
+Issued Date:,,
+Expiration Date:,,
+Notes:",Passport,,0
+http://sn,,,"NoteType:Social Security
+Language:en-US
+Name:
+Number:
+Notes:",Social Security Number,,0
+http://sn,,,"NoteType:Insurance
+Language:en-US
+Company:
+Policy Type:
+Policy Number:
+Expiration:,,
+Agent Name:
+Agent Phone:
+URL:
+Notes:",Insurance Policy,,0
+http://sn,,,"NoteType:Health Insurance
+Language:en-US
+Company:
+Company Phone:
+Policy Type:
+Policy Number:
+Group ID:
+Member Name:
+Member ID:
+Physician Name:
+Physician Phone:
+Physician Address:
+Co-pay:
+Notes:",Health Insurance,,0
+http://sn,,,"NoteType:Membership
+Language:en-US
+Organization:
+Membership Number:
+Member Name:
+Start Date:,,
+Expiration Date:,,
+Website:
+Telephone:
+Password:
+Notes:",Membership,,0
+http://sn,,,"NoteType:Wi-Fi Password
+Language:en-US
+SSID:
+Password:
+Connection Type:
+Connection Mode:
+Authentication:
+Encryption:
+Use 802.1X:
+FIPS Mode:
+Key Type:
+Protected:
+Key Index:
+Notes:",Wi-Fi Password,,0
+http://sn,,,"NoteType:Email Account
+Language:en-US
+Username:
+Password:
+Server:
+Port:
+Type:
+SMTP Server:
+SMTP Port:
+Notes:",Email,,0
+http://sn,,,"NoteType:Instant Messenger
+Language:en-US
+Type:
+Username:
+Password:
+Server:
+Port:
+Notes:",Instant Messenger,,0
+http://sn,,,"NoteType:Database
+Language:en-US
+Type:
+Hostname:
+Port:
+Database:
+Username:
+Password:
+SID:
+Alias:
+Notes:",Database,,0
+http://sn,,,"NoteType:Server
+Language:en-US
+Hostname:
+Username:
+Password:
+Notes:",Server,,0
+http://sn,,,"NoteType:SSH Key
+Language:en-US
+Bit Strength:
+Format:
+Passphrase:
+Private Key:
+Public Key:
+Hostname:
+Date:,,
+Notes:",SSH Key,,0
+http://sn,,,"NoteType:Software License
+Language:en-US
+License Key:
+Licensee:
+Version:
+Publisher:
+Support Email:
+Website:
+Price:
+Purchase Date:,,
+Order Number:
+Number of Licenses:
+Order Total:
+Notes:",Software License,,0
